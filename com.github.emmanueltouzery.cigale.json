@@ -3,7 +3,7 @@
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "19.08",
   "sdk": "org.freedesktop.Sdk",
-  "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable" ],
   "command": "cigale",
   "finish-args": [
     "--share=ipc",
