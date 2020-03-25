@@ -35,8 +35,8 @@
         {
           "type": "git",
           "url": "https://github.com/emmanueltouzery/cigale.git",
-          "tag": "v0.2.0",
-          "commit": "1b6c6d7217629b5674d630625120e1ee37e2428f"
+          "tag": "v0.3.0",
+          "commit": "8d994c8eaf95441e9e63e1ce4b53b691028d19e4"
         },
         "cargo-sources.json"
       ]
