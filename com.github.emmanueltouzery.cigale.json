@@ -3,7 +3,7 @@
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "19.08",
   "sdk": "org.freedesktop.Sdk",
-  "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable" ],
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
   "command": "cigale",
   "finish-args": [
     "--share=ipc",
@@ -35,8 +35,8 @@
         {
           "type": "git",
           "url": "https://github.com/emmanueltouzery/cigale.git",
-          "tag": "v0.3.0",
-          "commit": "8d994c8eaf95441e9e63e1ce4b53b691028d19e4"
+          "tag": "v0.4.0",
+          "commit": "25b8ac711af6d73a72a36532f0232b25ecde29ae"
         },
         "cargo-sources.json"
       ]
