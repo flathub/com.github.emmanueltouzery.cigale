@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.emmanueltouzery.cigale",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "19.08",
+  "runtime-version": "20.08",
   "sdk": "org.freedesktop.Sdk",
   "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
   "command": "cigale",
@@ -24,6 +24,7 @@
       "name": "cigale",
       "buildsystem": "simple",
       "build-commands": [
+        "mkdir fontawesome-free-5.12.0-desktop && mv svgs fontawesome-free-5.12.0-desktop",
         "cargo --offline fetch --manifest-path Cargo.toml --verbose",
         "cargo --offline build --release --verbose",
         "install -Dm755 ./target/release/cigale -t /app/bin/",
@@ -35,10 +36,14 @@
         {
           "type": "git",
           "url": "https://github.com/emmanueltouzery/cigale.git",
-          "tag": "v0.5.2",
-          "commit": "04ae6bf0451e68803ed1822170331c334ebcbd5d"
+          "commit": "caf484c84b3d54ada180fa2256772626eb6f94e7"
         },
-        "cargo-sources.json"
+        "cargo-sources.json",
+        {
+          "type": "archive",
+          "sha256": "4c93b0090c0804fb7b97d0e944a421b899be7319f7273db9b0b542fec9223af7",
+          "url": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.12.0.tgz"
+        }
       ]
     }
   ]
