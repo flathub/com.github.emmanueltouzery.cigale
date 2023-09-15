@@ -40,6 +40,10 @@
           "commit": "f90671e4ca10acc91a1eeb06676d6d080e1730d0"
         },
         {
+          "type": "patch",
+          "path": "appdata.patch"
+        },
+        {
           "type": "archive",
           "sha256": "4c93b0090c0804fb7b97d0e944a421b899be7319f7273db9b0b542fec9223af7",
           "url": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.12.0.tgz"

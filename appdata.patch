@@ -1,0 +1,59 @@
+diff --git a/flatpak/com.github.emmanueltouzery.cigale.metainfo.xml b/flatpak/com.github.emmanueltouzery.cigale.metainfo.xml
+index 437fc29..d42527b 100644
+--- a/flatpak/com.github.emmanueltouzery.cigale.metainfo.xml
++++ b/flatpak/com.github.emmanueltouzery.cigale.metainfo.xml
+@@ -46,6 +46,7 @@ https://hughsie.github.io/oars/index.html
+   <releases>
+     <release version="0.5.3" date="2021-07-10">
+       <description>
++      <p>Changes:</p>
+         <ul>update freedesktop runtime 19.08 to 20.08</ul>
+         <ul>upgrade dependencies, including gtk-rs and relm</ul>
+         <ul>drop the ":" from some labels, in gnome style there are no ":"</ul>
+@@ -59,12 +60,14 @@ https://hughsie.github.io/oars/index.html
+     </release>
+     <release version="0.5.2" date="2020-05-26">
+       <description>
++      <p>Changes:</p>
+         <ul>git: would fail importing events for https github repos</ul>
+         <ul>removed event sources would only disappear after an application restart</ul>
+       </description>
+     </release>
+     <release version="0.5.1" date="2020-05-16">
+       <description>
++      <p>Changes:</p>
+         <ul>gitlab: fix code comments outside of merge requests that would break parsing</ul>
+         <ul>gitlab: support the API pagination, fixes import if you have more than 20 items</ul>
+         <ul>update dependencies versions</ul>
+@@ -72,6 +75,7 @@ https://hughsie.github.io/oars/index.html
+     </release>
+     <release version="0.5.0" date="2020-04-18">
+       <description>
++      <p>Changes:</p>
+         <ul>git: fix bug where one commit would be displayed
+         multiple times</ul>
+         <ul>new event source: gitlab, collecting merge
+@@ -92,6 +96,7 @@ https://hughsie.github.io/oars/index.html
+     </release>
+     <release version="0.4.0" date="2020-03-31">
+       <description>
++      <p>Changes:</p>
+         <ul>git: fix bug where one commit would be displayed
+         multiple times</ul>
+         <ul>new event source: gitlab, collecting merge
+@@ -112,6 +117,7 @@ https://hughsie.github.io/oars/index.html
+     </release>
+     <release version="0.3.0" date="2020-03-25">
+       <description>
++      <p>Changes:</p>
+         <ul>when we get an error display from which event provider
+         type and from which event source we got the error.</ul>
+         <ul>redmine: handle multilanguage: translations for
+@@ -121,6 +127,7 @@ https://hughsie.github.io/oars/index.html
+     </release>
+     <release version="0.2.0" date="2020-03-06">
+       <description>
++      <p>Changes:</p>
+         <ul>
+           <li>Make the redmine event source react better to
+           errors</li>
