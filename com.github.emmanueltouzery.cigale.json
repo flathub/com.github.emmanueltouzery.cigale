@@ -33,12 +33,12 @@
         "install -Dm644 ./${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/"
       ],
       "sources": [
+        "cargo-sources.json",
         {
           "type": "git",
           "url": "https://github.com/emmanueltouzery/cigale.git",
           "commit": "f90671e4ca10acc91a1eeb06676d6d080e1730d0"
         },
-        "cargo-sources.json",
         {
           "type": "archive",
           "sha256": "4c93b0090c0804fb7b97d0e944a421b899be7319f7273db9b0b542fec9223af7",
